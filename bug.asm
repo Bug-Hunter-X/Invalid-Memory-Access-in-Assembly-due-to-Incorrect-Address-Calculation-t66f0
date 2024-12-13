@@ -1,0 +1,1 @@
+mov eax, [ebx+4*ecx] ;This instruction attempts to access memory at an invalid address. This could lead to a segmentation fault or other unexpected behavior.  The address calculation [ebx+4*ecx] may result in a value outside the bounds of allocated memory.
